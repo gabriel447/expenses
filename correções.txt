@@ -1,0 +1,13 @@
+para utilizar a biblioteca intl
+
+tive que atualizar o android studio para proxima versão
+
+instalar o flutter 3.0
+
+atualizar o java
+
+abrir o android studio e instalar o sdk manager 
+
+depois dar flutter doctor e resolver as correções
+
+instalar visualstudio

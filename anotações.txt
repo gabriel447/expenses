@@ -1,0 +1,34 @@
+*pilares da orientação a objeto
+
+herança é você herdar atributos de outras classes
+
+encapsulamento é você tornar atributos privados que só classes específicas podem ter acesso
+
+polimorfismo é usar classes abstratas e concretas para referenciar
+
+__________________________________________________
+
+*como alterar o estado dos componenentes..
+
+stateless*
+
+um novo paremetro é passado para o construtor desse componente externamente e apartir dai seu estado muda 
+
+externamente algo muda ai ele passa o novo parametro ai o componente é atualizado
+
+statefull*
+
+2 formas:
+
+alterando externamente um parâmetro que você esta recebendo via construtor (externamente)
+ou
+o estado do componente alterou então voce atualiza a vizualização da sua aplicação (estado mudando)
+
+________________________________________________
+
+arvores de componentes > passar dados de um para ooutro > comunicação direta e indireta
+
+*comunicação direta: componente pai passa dados para o componente filho
+
+*comunicação indireta: componente pai passa uma função para o componente filho e no momento certo
+o componenente filho chama a função passando dados para o componente pai
